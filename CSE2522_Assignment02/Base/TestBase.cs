@@ -17,7 +17,6 @@ namespace CSE2522_Assignment02.Base
             options.AddArgument("--disable-notifications");
 
             driver = new ChromeDriver(options);
-            driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://uitestingplayground.com/");
         }
 
